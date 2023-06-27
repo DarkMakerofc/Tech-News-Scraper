@@ -198,20 +198,22 @@ console.log(news)
 ##### ℹ️ Example Get News Details From Url
 
 ```
-const details = nima.getNews("https://www.gadgets360.com/mobiles/news/motorola-edge-40-g32-viva-magenta-rose-gold-satin-maroon-colour-options-price-in-india-specifications-4143206")
+const details = await  nima.getNews("https://www.gadgets360.com/mobiles/news/motorola-edge-40-g32-viva-magenta-rose-gold-satin-maroon-colour-options-price-in-india-specifications-4143206")
 
 console.log(details)
 ```
 ##### 🔍 Result Url Details 
 
 ```
-
 {
+  creator: 'MR NIMA',
+  status: true,
+  result: {
   title: 'Nothing Phone 2 Pre-Orders to Start in India on June 29 Via Flipkart: All Details',
   link: 'https://www.gadgets360.com/mobiles/news/nothing-phone-2-india-pre-order-june-29-launch-july-11-flipkart-carl-pei-4153594',
   img: 'https://i.gadgets360cdn.com/large/Nothing_Phone_1_1684229986019.jpg?downsize=950:*',                                      
   desc: 'Nothing Phone 2 is scheduled to launch in India on July 11 and will be available for purchase via Flipkart. The phone, succeeding the Nothing Phone 1 that released back in July 2022, is already confirmed to be powered by an octa-core Qualcomm Snapdragon 8+ Gen 1 SoC and pack a larger battery and feature a larger display than its predecessor. Nothing CEO Carl Pei has teased the user interface of the upcoming smartphone by sharing a screenshot of the handset's home screen. Flipkart today confirmed the date from which the phone will be open for pre-ordering in the country.The Flipkart microsite for the Nothing Phone 2 announced that the phone will be available for pre-orders in India starting June 29, 12 PM IST. For pre-ordering, a customer is required to pay a refundable deposit of Rs. 2,000. Following that, between 9 PM IST on July 11 and 11:59 PM IST on July 20, the concerned customers can choose the variant of their liking and pay the balance amount to secure the purchase.Nothing is also offering a 50 percent discount on the Ear Stick, alongside the pre-order offers. The company claims that there will also be instant cashback offers available with the leading banks during the pre-order of the Nothing Phone 2. Customers will be able to avail of an additional 50 percent discount on the Nothing Accessories box.iPhone 15 Pro Max Leaked Case Tips Design Changes to Mute ButtonExpected to be offered in Black and White colour options like its predecessor, the Nothing Phone 2 has been tipped to launch in two storage configurations. The 8GB RAM + 256GB storage variant is likely to be priced at EUR 729 (roughly Rs. 65,600), while the 12GB RAM + 512GB storage option could be marked at EUR 849 (roughly Rs. 76,500).Nothing Phone 2 is confirmed to be equipped with a USB Type-C cable with a transparent outer layer and a silver-coloured USB port. The phone will also sport a 6.7-inch display, with a resolution of full-HD+ (2400 x 1080 pixels) or higher. The Phone 2 is also confirmed to pack a 4,700mAh battery and come with an octa-core Qualcomm Snapdragon 8+ Gen 1 SoC. The company announced that the handset will receive 3 years of Android updates and 4 years of security updates.\n'
-
+  }
 }
 
 ```
